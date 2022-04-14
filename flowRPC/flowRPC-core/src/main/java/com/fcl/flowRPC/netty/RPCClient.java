@@ -1,5 +1,6 @@
 package com.fcl.flowRPC.netty;
 
+import com.fcl.flowRPC.config.RPCClientConfig;
 import com.fcl.flowRPC.constant.MessageConst;
 import com.fcl.flowRPC.netty.handler.RPCClientHandler;
 import com.fcl.flowRPC.netty.codec.FlowMessageDecoder;
@@ -55,20 +56,20 @@ public class RPCClient {
 
     public void start() throws Exception {
         // 1.初始化配置 config
-        initialConfig();
+        initConfig();
 
         // 2.初始化启动类 bootstrap
-        initialBootstrap();
+        initBootstrap();
 
         // 3.启用注册中心
-        initialRegistry();
+        initRegistry();
     }
 
-    private void initialConfig() throws Exception {
-        if (config == null) throw new Exception("RPCClient的配置不能为空！");
+    private void initConfig() throws Exception {
+        if (config == null) throw new Exception("[RPC-Client]配置不能为空！");
     }
 
-    private void initialBootstrap() {
+    private void initBootstrap() {
         RPCClientHandler rpcClientHandler = new RPCClientHandler(this);
         bootstrap.group(reactorGroup).channel(NioSocketChannel.class)
                 .option(ChannelOption.TCP_NODELAY, true)
@@ -85,7 +86,7 @@ public class RPCClient {
                 });
     }
 
-    private void initialRegistry() {
+    private void initRegistry() {
         logger.info("使用测试注册中心");
         Map<String, SocketAddress> serviceAddressMap = new HashMap<>();
         serviceAddressMap.put("testService", new InetSocketAddress("127.0.0.1",10001));

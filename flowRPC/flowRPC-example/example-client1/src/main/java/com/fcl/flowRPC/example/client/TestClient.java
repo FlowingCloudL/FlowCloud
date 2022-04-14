@@ -2,7 +2,7 @@ package com.fcl.flowRPC.example.client;
 
 import com.fcl.flowRPC.example.api.UserService;
 import com.fcl.flowRPC.netty.RPCClient;
-import com.fcl.flowRPC.pojo.RPCClientConfig;
+import com.fcl.flowRPC.config.RPCClientConfig;
 import com.fcl.flowRPC.proxy.RPCProxyFactory;
 
 

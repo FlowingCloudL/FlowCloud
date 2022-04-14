@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="example-client1" />
+        <module name="example-server1" />
+        <module name="flowRPC-spring-boot-starter" />
+        <module name="flowRPC-core" />
+        <module name="example-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="example-api" target="8" />
+      <module name="example-client1" target="8" />
+      <module name="example-server1" target="8" />
+      <module name="flowRPC" target="8" />
+      <module name="flowRPC-core" target="8" />
+      <module name="flowRPC-example" target="8" />
+      <module name="flowRPC-spring-boot-starter" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

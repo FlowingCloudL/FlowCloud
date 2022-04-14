@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/FlowCloud.iml" filepath="$PROJECT_DIR$/.idea/FlowCloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flowRPC/flowRPC-example/example-api/example-api.iml" filepath="$PROJECT_DIR$/flowRPC/flowRPC-example/example-api/example-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flowRPC/flowRPC-example/example-client1/example-client1.iml" filepath="$PROJECT_DIR$/flowRPC/flowRPC-example/example-client1/example-client1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flowRPC/flowRPC-example/example-server1/example-server1.iml" filepath="$PROJECT_DIR$/flowRPC/flowRPC-example/example-server1/example-server1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flowRPC/flowRPC.iml" filepath="$PROJECT_DIR$/flowRPC/flowRPC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flowRPC/flowRPC-core/flowRPC-core.iml" filepath="$PROJECT_DIR$/flowRPC/flowRPC-core/flowRPC-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flowRPC/flowRPC-example/flowRPC-example.iml" filepath="$PROJECT_DIR$/flowRPC/flowRPC-example/flowRPC-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flowRPC/flowRPC-spring-boot-starter/flowRPC-spring-boot-starter.iml" filepath="$PROJECT_DIR$/flowRPC/flowRPC-spring-boot-starter/flowRPC-spring-boot-starter.iml" />
+    </modules>
+  </component>
+</project>

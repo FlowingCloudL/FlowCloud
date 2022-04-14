@@ -12,6 +12,7 @@
     <modules>
         <module>flowRPC-core</module>
         <module>flowRPC-example</module>
+        <module>flowRPC-spring-boot-starter</module>
     </modules>
 
     <properties>

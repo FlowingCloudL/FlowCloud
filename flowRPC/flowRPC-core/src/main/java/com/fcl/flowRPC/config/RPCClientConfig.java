@@ -1,4 +1,4 @@
-package com.fcl.flowRPC.pojo;
+package com.fcl.flowRPC.config;
 
 public class RPCClientConfig {
 
