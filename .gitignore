@@ -1,0 +1,5 @@
+# 项目排除路径
+/flowRPC/flowRPC-core/target/
+/flowRPC/flowRPC-example/example-api/target/
+/flowRPC/flowRPC-example/example-client1/target/
+/flowRPC/flowRPC-example/example-server1/target/

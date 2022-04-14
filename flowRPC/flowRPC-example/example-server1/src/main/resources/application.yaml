@@ -1,0 +1,6 @@
+server:
+  port: 10001
+
+flowRPC:
+  server:
+    enable: true
